@@ -1,0 +1,34 @@
+/* Nav Header & Footer */
+header ul {
+    justify-content: space-between;
+}
+
+header ul,
+footer ul {
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    width: 100%;
+}
+
+footer ul {
+    margin: 40px 0;
+}
+
+header li, 
+footer li {
+    transition: ease-in-out .3s;
+}
+
+header a,
+footer ul a {
+    padding: 10px 15px;
+    cursor: url("./../icons/cursor.png"), default;
+}
+
+header li:hover,
+footer li:hover {
+    position: relative;
+    transform: translate(0, -5px);
+}
+/* Nav Header & Footer */

@@ -1,0 +1,54 @@
+/*  user & skills  */
+.user, .skills {
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100vh;
+}
+
+.user > img,
+.skills > img {
+    width: 50%;
+}
+
+.user ul,
+.skills ul {
+    list-style: none;
+}
+
+.user ul > li,
+.skills ul > li {
+    font-weight: bold;
+    font-size: var(--font-size-subtitle);
+    margin: 25px 0;
+}
+
+.user ul > li::before,
+.skills ul > li::before {
+    content: "✔️";
+    margin: 0 20px;
+}
+/*  user & skills  */
+
+@media (max-width: 768px) {
+    .user {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .user > img,
+    .skills > img {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .skills > img {
+        width:40%;
+    }
+}

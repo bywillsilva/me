@@ -1,0 +1,18 @@
+/*  cta  */
+.cta {
+    align-items: center;
+    padding: 120px 0;
+    margin-top: 40px;
+    width: 100%;
+    background-color: var(--color-theme);
+}
+
+.cta > section { 
+    width: 80%;
+    align-items: center;
+}
+
+.cta div {
+    align-items: center;
+}
+/*  cta  */

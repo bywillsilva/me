@@ -1,0 +1,16 @@
+/* Header */
+header {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    padding: 30px 0;
+}
+
+header a {
+    color: var(--color-text)
+}
+
+header img {
+    width:7rem;
+}
+/* Header */

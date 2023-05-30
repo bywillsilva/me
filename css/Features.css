@@ -1,0 +1,51 @@
+/*  features  */
+.features {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--color-less);
+}
+
+.features > section {
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features > section > div {
+    align-items: flex-start;
+    margin: 40px 0;
+    width: calc(95%/3);
+    min-width: 350px;
+}
+
+.features > section > div > div:nth-child(1) {
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.features p {
+    width: 90%;
+    line-height: 23px;
+}
+
+.features img {
+    width: 30px;
+}
+/*  features  */
+
+@media (max-width: 915px) {
+    .features > section {
+        justify-content: center;
+    }
+
+    .features > section > div {
+        position: relative;
+        left: 15px;
+        width: 70%;
+    }
+}

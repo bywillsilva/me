@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-theme);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-text);
+}
+
+html {
+    scroll-behavior: smooth;
+    cursor: url("./../icons/cursor.png"), default;
+}
+
+:root {
+    --font-size-text: 0.9rem;
+    --font-size-title: 5rem;
+    --font-size-subtitle: 1rem;
+
+    --color-theme: #d1d1d1;
+    --color-less: #f1f1f1;
+    --color-text: #1d1d1d;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    align-items: center;
+    width: 100%;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system;
+    font-size: var(--font-size-text);
+    color: var(--color-text);
+}
+
+main {
+    align-items: center;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+/* Texts */
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: var(--font-size-subtitle);
+}
+
+p {
+    font-size: var(--font-size-text);
+    margin-top: 5px;
+}
+/* Texts */
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    border-top: none;
+    border: 1px solid var(--color-theme);
+}
