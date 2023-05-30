@@ -32,12 +32,12 @@
 
 @media (max-width: 915px) {
     .home {
-        height: 95vh !important;
+        height: 105vh !important;
     }
 
     .home > section {
         flex-wrap: wrap-reverse;
-        height: 85vh !important;
+        height: 95vh !important;
         align-items: flex-start;
     }
 
