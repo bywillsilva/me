@@ -43,7 +43,7 @@
     
     .user > img,
     .skills > img {
-        width: 70% !important;
+        width: 100% !important;
     }
 }
 
