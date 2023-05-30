@@ -37,3 +37,13 @@ footer div > img:hover {
     transform: translate(0, -5px);
 }
 /*  footer  */
+
+@media (max-width: 550px) {
+    .base {
+        flex-direction: column-reverse;
+    }
+
+    .base p {
+        margin-top: 20px;
+    }
+}
