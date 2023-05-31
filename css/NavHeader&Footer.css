@@ -42,13 +42,12 @@ footer li:hover,
 
 .nav-mobile {
     display: flex;
-    visibility: hidden;
     position: absolute;
     top: 0;
-    right: -380px;
-    width: 100%;
+    right: 0;
+    width: 0;
     z-index: 1;
-    transition: ease-in-out 1s;
+    transition: ease-in-out .3s;
 }
 
 .nav-mobile ul {
@@ -56,7 +55,6 @@ footer li:hover,
     list-style: none;
     font-weight: bold;
     box-sizing: border-box;
-    padding: 50px 20px;
     width: 80%;
     height: 120vh;
     align-self: flex-end;
@@ -78,6 +76,7 @@ footer li:hover,
 }
 
 .close-icon {
+    display: none;
     width: 2rem;
     padding: 0 30px 20px 30px;
 }
