@@ -1,8 +1,9 @@
 /*  footer  */
 footer {
     align-items: center;
+    justify-content: center;
     width: 100%;
-    padding: 50px 0 20px 0;
+    height: 50vh;
     color: var(--color-theme);
     background-color: var(--color-text);
 }
@@ -23,7 +24,7 @@ footer > section > img {
 footer > section > div {
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 footer div > a > img {
