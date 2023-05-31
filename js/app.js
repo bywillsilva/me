@@ -5,25 +5,19 @@ const close_icon = document.getElementById("close-icon");
 const body = document.querySelector("body");
 
 menu_icon.addEventListener("click", () => {
-    menu_mobile.style.width = "100%";
-    close_icon.style.display = "flex";
-    ul_mobile.style.padding = "50px 20px";
+    menu_mobile.style.display = "flex";
     body.style.overflow = "hidden";
 });
 
 close_icon.addEventListener("click", () => {
-    menu_mobile.style.width = "0";
-    close_icon.style.display = "none";
-    ul_mobile.style.padding = "50px 0";
+    menu_mobile.style.display = "none";
     body.style.overflow = "auto";
 });
 
 let mobile_li = document.getElementsByClassName("mobile-li");
 for (let index = 0; index < mobile_li.length; index++) {
     mobile_li[index].addEventListener("click", () => {
-        menu_mobile.style.width = "0";
-        close_icon.style.display = "none";
-        ul_mobile.style.padding = "50px 0";
+        menu_mobile.style.display = "none";
         body.style.overflow = "auto";
     });
 }
