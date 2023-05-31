@@ -39,9 +39,6 @@
 /*  features  */
 
 @media (max-width: 915px) {
-    .features {
-        scroll-snap-align: start;
-    }
     
     .features > section {
         justify-content: center;

@@ -3,7 +3,6 @@
     align-items: center;
     width: 80%;
     padding: 40px 0 80px 0;
-    scroll-snap-align: start;
 }
 
 .portfolio > div:nth-child(1) {
