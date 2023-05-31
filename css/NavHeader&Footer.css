@@ -42,6 +42,7 @@ footer li:hover,
 
 .nav-mobile {
     display: flex;
+    visibility: hidden;
     position: absolute;
     top: 0;
     right: -380px;
