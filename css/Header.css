@@ -10,7 +10,7 @@ header a {
     color: var(--color-text)
 }
 
-header img {
+header img:nth-child(1) {
     width:7rem;
 }
 /* Header */

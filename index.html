@@ -20,17 +20,26 @@
     </head>
     <body class="flex-column">
         <main class="flex-column" id="home">
+            <nav class="nav-mobile flex-column" id="menu-mobile">
+                <ul class="flex-column">
+                    <div class="flex-row">
+                        <img src="./icons/close.png" class="close-icon" id="close-icon" alt="">
+                    </div>
+                    <li class="mobile-li"><a href="#sobre">Sobre</a></li>
+                    <li class="mobile-li"><a href="#portfolio">Portfólio</a></li>
+                    <li class="mobile-li"><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
             <header>
                 <nav>
                     <ul class="flex-row">
-                        <div>
-                            <img src="./images/logo-black.png" alt="" />
-                        </div>
+                        <img src="./images/logo-black.png" alt="" />
                         <div class="flex-row">
                             <li><a href="#sobre">Sobre</a></li>
                             <li><a href="#portfolio">Portfólio</a></li>
                             <li><a href="#contato">Contato</a></li>
                         </div>
+                        <img src="./icons/menu-bar.png" class="menu-icon" id="menu-icon" alt="">
                     </ul>
                 </nav>
             </header>
@@ -113,28 +122,28 @@
                             <img src="./images/personal.png" alt="" />
                             <h3>Landing page</h3>
                         </div>
-                        <button>Acessar</button>
+                        <button><a href="https://bywillsilva.github.io/me/" target="_blank">Acessar</a></button>
                     </div><!-- project card -->
                     <div class="project-card">
                         <div class="project">
                             <img src="./images/crono.png" alt="" />
                             <h3>Cronômetro digital</h3>
                         </div>
-                        <button>Acessar</button>
+                        <button><a href="https://bywillsilva.github.io/cronometro/" target="_blank">Acessar</a></button>
                     </div><!-- project card -->
                     <div class="project-card">
                         <div class="project">
                             <img src="./images/calc.png" alt="" />
                             <h3>Calculadora online</h3>
                         </div>
-                        <button>Acessar</button>
+                        <button><a href="https://bywillsilva.github.io/calculadora/" target="_blank">Acessar</a></button>
                     </div><!-- project card -->
                     <div class="project-card">
                         <div class="project">
                             <img src="./images/to-do.png" alt="" />
                             <h3>ToDo List</h3>
                         </div>
-                        <button>Acessar</button>
+                        <button disabled="true">Acessar</button>
                     </div><!-- project card -->
                 </div><!-- projects -->
             </section><!-- portfolio -->
@@ -172,5 +181,6 @@
                 </section>
             </footer>
         </main>
+        <script src="./js/app.js"></script>
     </body>
 </html>
