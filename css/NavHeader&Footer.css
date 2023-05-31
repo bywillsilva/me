@@ -83,6 +83,12 @@ footer li:hover,
 /* Nav Header & Footer */
 
 @media (max-width: 480px) {
+    .nav-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
     header div {
         display: none !important;
     }

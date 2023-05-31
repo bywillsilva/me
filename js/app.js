@@ -1,5 +1,4 @@
 const menu_mobile = document.getElementById("menu-mobile");
-const ul_mobile = document.getElementById("ul-mobile");
 const menu_icon = document.getElementById("menu-icon");
 const close_icon = document.getElementById("close-icon");
 const body = document.querySelector("body");
