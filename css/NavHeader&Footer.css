@@ -50,10 +50,6 @@ footer li:hover,
     transition: ease-in-out 1s;
 }
 
-.animate-menu {
-    animation: animate-menu-open 1s;
-}
-
 .nav-mobile ul {
     align-items: flex-start;
     list-style: none;
@@ -93,14 +89,5 @@ footer li:hover,
     
     .menu-icon {
         display: flex;
-    }
-}
-
-@keyframes animate-menu-open {
-    0% {
-        right: -380px;
-    }
-    100% {
-        right: 0;
     }
 }

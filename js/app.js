@@ -3,13 +3,11 @@ const close_icon = document.getElementById("close-icon");
 const menu_mobile = document.getElementById("menu-mobile");
 const body = document.querySelector("body");
 menu_icon.addEventListener("click", () => {
-    menu_mobile.classList.add("animate-menu");
     menu_mobile.style.right = "0";
     body.style.overflow = "hidden";
 });
 
 close_icon.addEventListener("click", () => {
-    menu_mobile.classList.remove("animate-menu");
     menu_mobile.style.right = "-380px";
     body.style.overflow = "auto";
 });
