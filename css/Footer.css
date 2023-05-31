@@ -5,6 +5,7 @@ footer {
     width: 100%;
     height: 50vh;
     padding: 10px 0;
+    box-sizing: border-box;
     color: var(--color-theme);
     background-color: var(--color-text);
 }
