@@ -19,6 +19,7 @@ button:hover {
 /* Button */
 
 button a {
+    padding: 10px;
     text-decoration: none;
     color: var(--color-text);
 }
