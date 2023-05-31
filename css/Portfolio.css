@@ -1,9 +1,9 @@
 /*  portfolio  */
 .portfolio {
-    scroll-snap-align: start;
     align-items: center;
     width: 80%;
     padding-top: 40px;
+    scroll-snap-align: start;
 }
 
 .portfolio > div:nth-child(1) {

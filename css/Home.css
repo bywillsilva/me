@@ -2,9 +2,9 @@
 .home {
     align-items: center;
     width: 100%;
-    scroll-snap-align: start;
     height: 75vh;
     background-color: var(--color-theme);
+    scroll-snap-align: start;
 }
 
 .home > section {

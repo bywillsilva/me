@@ -1,11 +1,11 @@
 /*  footer  */
 footer {
-    scroll-snap-align: start;
     align-items: center;
     width: 100%;
     padding: 50px 0 20px 0;
     color: var(--color-theme);
     background-color: var(--color-text);
+    scroll-snap-align: start;
 }
 
 footer a {
