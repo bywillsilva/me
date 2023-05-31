@@ -1,5 +1,6 @@
 /*  portfolio  */
 .portfolio {
+    scroll-snap-align: start;
     align-items: center;
     width: 80%;
     padding-top: 40px;

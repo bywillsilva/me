@@ -1,5 +1,6 @@
 /*  cta  */
 .cta {
+    scroll-snap-align: start;
     align-items: center;
     padding: 120px 0;
     margin-top: 40px;
