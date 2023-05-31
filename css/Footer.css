@@ -29,10 +29,13 @@ footer > section > div {
 footer div > a > img {
     height: 2rem;
     margin-left: 10px;
+}
+
+footer div > a {
     transition: ease-in-out .3s;
 }
 
-footer div > img:hover {
+footer div > a:hover {
     position: relative;
     transform: translate(0, -5px);
 }

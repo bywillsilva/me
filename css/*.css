@@ -73,6 +73,7 @@ p {
 
 a {
     text-decoration: none;
+    cursor: url("./../icons/cursor.png"), default;
 }
 
 hr {
