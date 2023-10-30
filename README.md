@@ -1,6 +1,4 @@
-# Site Pessoal de [Seu Nome]
-
-![Imagem relacionada ao site pessoal (opcional)](link_para_imagem_relacionada_ao_site)
+# Site Pessoal - Me
 
 Bem-vindo ao meu site pessoal! Este espaço foi criado com o propósito de apresentar meu portfólio pessoal e demonstrar minhas habilidades de desenvolvimento. Seja bem-vindo(a) e explore meu trabalho.
 
